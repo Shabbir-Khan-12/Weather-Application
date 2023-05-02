@@ -10,9 +10,10 @@ import React from 'react';
 import { Button, SafeAreaView, StyleSheet, Text } from 'react-native';
 
 const App = () => {
+  const message = 'Hello this is a Weather Application'
   return (
     <SafeAreaView style={styles.root}>
-      <Text>Hello World</Text>
+      <Text style={{backgroundColor: 'pink'}}>{message}</Text>
       <Button title='Press' />
     </SafeAreaView>
   );
